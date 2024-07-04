@@ -57,37 +57,29 @@ Once the project is set up, you can start adding your own content to the portfol
 - React
 ## File Structure
 ```bash
-weather-app/
-│
+personal-portfolio/
+├── build/
+├── node_modules/
 ├── public/
-│   └── vite.svg                
-│
+│   ├── _redirects
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   ├── robots.txt
 ├── src/
-│   ├── components/               # React components
-│   │   ├── dropDownMenu.jsx      # Component for dropdown menu
-│   │   ├── Forecast.jsx          # Component to display weather forecast
-│   │   ├── Inputs.jsx            # Component for inputs
-│   │   ├── TempAndDetails.jsx    # Component for temperature and weather details
-│   │   ├── TimeAndLocation.jsx   # Component for time and location
-│   │   └── TopButtons.jsx        # Component for top buttons
-│   │
-│   ├── assets/                   # Images and other assets
-│   │   ├── backgroundVideo.mp4   # Background video for the app
-│   │   └── weather-icon.png      # Weather icon
-│   │
-│   ├── services/                 # Services for API calls
-│   │   └── weatherService.js     # Service for fetching weather data
-│   │
-│   ├── App.jsx                   # Main React component
-│   ├── main.jsx                  # Entry point for React
-│   └── index.css                 # Main CSS file
-│
-├── index.html                    # Main HTML file
-├── package.json                  # NPM dependencies and scripts
-├── package-lock.json             # NPM lock file
-├── postcss.config.js             # PostCSS configuration
-├── tailwind.config.js            # Tailwind CSS configuration
-└── vite.config.js                # Vite configuration
+│   ├── components/
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   ├── index.js
+│   ├── setupTests.js
+│   ├── images and certificates/
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
 ```
 ## License
 This project is open for personal and educational use.
